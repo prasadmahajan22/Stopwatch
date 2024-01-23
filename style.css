@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    color:#F92672;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   flex-direction: column;
+}
+.timerDisplay{
+    font-size: 100px;
+    font-weight: 600;
+}
+.buttons{
+    margin: 20px;
+
+}
+.btn{
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #F92672;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 24px;
+    margin-inline: 12px;
+    margin-top: 9%;
+    cursor: pointer;
+
+}
